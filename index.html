@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio website</title>
+    </head>
+    <body class="dark-theme">
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+
+                            <img src="assets/img/avatar.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Юнусов Камолиддин</h2>
+                    <h3 class="profile__profession">Инженер проектировщик в сфере телекоммуникации</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://instagram.com/kamron__yusupov?igshid=MzNlNGNkZWQ4Mg==" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">8+ года</h3>
+                        <p class="profile__info-description">
+                            Опыт работы
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">100+</h3>
+                        <p class="profile__info-description">
+                            Завершенных проектов
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">40+</h3>
+                        <p class="profile__info-description">Навыков</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+
+                    <a href="https://t.me/secret_person" class="button">
+                        Пишите мне <i class="ri-telegram-line"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" id="projectBtn" data-target="#projects">
+                        Место работы
+                    </button>
+                    <button class="filters__button" id="skillBtn" data-target="#skills">
+                        Навыки
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+
+                            <img src="assets/img/1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <h3 class="projects__title">Узбектелеком AK, филиал "БРМ"</h3>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <h3 class="projects__title">Узбектелеком AK, филиал "ТШТТ"</h3>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <h3 class="projects__title">Подготовка проекта на презентацию</h3>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <h3 class="projects__title">Награждение за повышени квалификации</h3>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <h3 class="projects__title">Рабочий день</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Знание основ электроники и телекоммуникаций.</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Умение работать с программным обеспечением для обработки данных и анализа сетей.</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Опыт работы с технологиями цифровой и аналоговой связи, LAN и WAN, модемами и маршрутизаторами, а также с телекоммуникационным оборудованием.</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Знание современных технологий, таких как VoIP, IPTV, 5G, Cloud-Computing и других.</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Умение проектировать, оценивать и управлять телекоммуникационными системами и сетями.</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Опыт работы с базовыми инструментами, такими как AutoCAD, 3DSmax, Microsoft Office и другие.
+                                            </h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Навыки решения проблем, аналитическое мышление и способность быстро принимать решения.</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name"> Коммуникабельность и умение работать в коллективе, уравление тех.персоналом, умение общаться с клиентами, партнерами и другими заинтересованными сторонами.</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Навыки управления проектами и опыт работы в команде разработчиков и инженеров.</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                               
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Юнусов Камолиддин 2023
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
